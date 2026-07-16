@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6eeee;
+  color: #111;
+}
+
+.page-wrapper {
+  width: 84%;
+  max-width: 1180px;
+  margin: 90px auto;
+  background: #fff;
+  border: 1.5px solid #111;
+  min-height: 100vh;
+  padding: 60px 90px;
+}
+
+/* Navigation */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+  font-size: 14px;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.nav nav {
+  display: flex;
+  gap: 48px;
+}
+
+.nav a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 4px;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #111;
+}
+
+/* Hero */
+
+.hero h1 {
+  font-size: clamp(80px, 13vw, 190px);
+  letter-spacing: -0.08em;
+  line-height: 0.85;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.8fr;
+  gap: 100px;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 90px;
+}
+
+.hero-image,
+.project-image {
+  background: #d9d9d9;
+  filter: grayscale(100%);
+}
+
+.hero-image {
+  height: 420px;
+}
+
+.image-one {
+  background: linear-gradient(135deg, #dcdcdc, #8b8b8b);
+}
+
+.image-two {
+  height: 300px;
+  background: linear-gradient(135deg, #f0f0f0, #777);
+}
+
+.tagline {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 800;
+  margin-bottom: 80px;
+}
+
+/* Intro */
+
+.intro {
+  max-width: 760px;
+  margin-bottom: 90px;
+}
+
+.intro p {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+/* Category Menu */
+
+.category-menu {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #aaa;
+  font-size: 17px;
+  line-height: 2.6;
+}
+
+.category-menu .active {
+  color: #111;
+  border-bottom: 1px solid #111;
+  display: inline-block;
+}
+
+/* Projects */
+
+.projects-section {
+  margin-bottom: 110px;
+}
+
+.projects-section h2,
+.focus-section h2 {
+  font-size: 38px;
+  margin-bottom: 45px;
+  letter-spacing: -0.04em;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  height: 250px;
+  margin-bottom: 22px;
+}
+
+.project-one {
+  background: linear-gradient(135deg, #eee, #555);
+}
+
+.project-two {
+  background: linear-gradient(135deg, #ddd, #999);
+}
+
+.project-three {
+  background: linear-gradient(135deg, #f6f6f6, #777);
+}
+
+.project-card h3 {
+  font-size: 22px;
+  line-height: 1.05;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.project-card span {
+  font-size: 12px;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Focus Areas */
+
+.focus-section {
+  margin-bottom: 100px;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 34px;
+}
+
+.focus-card {
+  border-top: 1px solid #111;
+  padding-top: 22px;
+}
+
+.focus-card h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.focus-card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Statement */
+
+.statement {
+  max-width: 760px;
+  margin: 120px 0;
+}
+
+.statement p {
+  font-size: 30px;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+  font-size: 14px;
+}
+
+.footer h3 {
+  margin-bottom: 12px;
+}
+
+.footer p {
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-links a {
+  color: #111;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+  .page-wrapper {
+    width: 94%;
+    margin: 25px auto;
+    padding: 35px 24px;
+  }
+
+  .nav {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .nav nav {
+    gap: 20px;
+    font-size: 12px;
+  }
+
+  .hero-grid,
+  .project-grid,
+  .focus-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+
+  .intro p,
+  .statement p {
+    font-size: 22px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
