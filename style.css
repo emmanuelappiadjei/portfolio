@@ -387,6 +387,26 @@ body {
   height: 340px;
 }
 
+/* VIDEO EMBED */
+
+.case-video {
+  margin-bottom: 75px;
+}
+
+.case-video-label {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.case-video-embed {
+  max-width: 360px;
+}
+
+.case-video-embed iframe {
+  border-radius: 2px;
+}
+
 /* MOBILE */
 
 @media (max-width: 850px) {
