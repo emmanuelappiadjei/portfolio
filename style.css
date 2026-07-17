@@ -372,9 +372,17 @@ body {
   border-left: 1px solid var(--hairline);
 }
 
+.highlight-secondary-kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
 .highlight-secondary-number {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin-bottom: 10px;
