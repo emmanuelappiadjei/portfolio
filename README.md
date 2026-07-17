@@ -2,19 +2,22 @@
 
 ## Adding your photos
 
-Create an `images/` folder in the repo root and add these files (exact names matter):
+Create an `images/` folder in the repo root and add these files (exact names matter, all lowercase):
 
 **Homepage**
-- `images/hero-large.jpg` — the big portrait on the homepage
-- `images/hero-small.jpg` — the smaller offset photo next to it
-- `images/project-hfma.jpg` — thumbnail for the HFMA Annual project card
-- `images/project-podcast.jpg` — thumbnail for the Podcast Research project card
-- `images/project-events.jpg` — thumbnail for the Event Engagement project card
+- `images/hero-large.jpg` — big portrait
+- `images/hero-small.jpg` — Nashville skyline
+- `images/project-hfma.jpg` — HFMA project card thumbnail
+- `images/project-carnival.jpg` — Family Carnival project card thumbnail
+- `images/project-events.jpg` — Event Engagement project card thumbnail
 
 **HFMA Annual case study gallery**
-- `images/hfma-1.jpg` — large feature image (suite experience)
-- `images/hfma-2.jpg` — partner reception
-- `images/hfma-3.jpg` — event materials
-- `images/hfma-4.jpg` — attendees
+- `images/hfma-1.jpg`, `hfma-2.jpg`, `hfma-3.jpg`
 
-Photos are auto-converted to grayscale via CSS, so color photos will still match the black-and-white editorial look — no need to desaturate them yourself first. Aim for photos roughly portrait/landscape orientation matching each slot's height (they're cropped with `object-fit: cover`, so they won't distort, but centering matters).
+**Family Carnival case study gallery**
+- `images/carnival-1.jpg` — wide hero shot (event overview)
+- `images/carnival-2.jpg` — vendor interview
+- `images/carnival-3.jpg` — families at the event
+- `images/carnival-4.jpg` — promotional/social content
+
+Photos get a warm, muted terracotta tint automatically via CSS — no need to edit them yourself first.
