@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Carnival Marketing Campaign | Emmanuel Appiadjei</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="case-page">
+
+    <header class="nav">
+      <a href="index.html" class="brand">Emmanuel Appiadjei</a>
+
+      <nav>
+        <a href="index.html">Portfolio</a>
+        <a href="index.html#about">About</a>
+        <a href="mailto:youremail@example.com">Contact</a>
+      </nav>
+    </header>
+
+    <section class="case-hero">
+      <a href="index.html" class="back-link">← Back to Portfolio</a>
+
+      <h1>Family Carnival Marketing Campaign</h1>
+
+      <p class="case-subtitle">
+        Social content, photography, and vendor outreach for a military family nonprofit's flagship annual
+        event — part of a team effort that helped grow attendance by over 110% year-over-year.
+      </p>
+    </section>
+
+    <section class="case-details">
+      <div>
+        <h3>Role</h3>
+        <p>Marketing & Content Support</p>
+      </div>
+
+      <div>
+        <h3>Focus</h3>
+        <p>Social Media Marketing, Content Creation, Community Outreach</p>
+      </div>
+
+      <div>
+        <h3>Project Type</h3>
+        <p>Community Marketing Campaign</p>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <h2>Project Overview</h2>
+      <p>
+        Contributed to the marketing behind the Steven A. Cohen Military Family Clinic at Centerstone's
+        annual Family Carnival — a community event connecting military families with local resources
+        while raising awareness of the clinic's mental health services. Worked alongside the outreach
+        and communications team on content, promotion, and vendor coordination, helping the event grow
+        even while competing against a major citywide carnival happening the same weekend.
+      </p>
+    </section>
+
+    <section class="case-highlight">
+      <p class="highlight-number">+111%</p>
+      <p class="highlight-label">
+        Growth in event attendance year-over-year — from roughly 300 to 633 attendees — a team result
+        I contributed content, outreach, and promotion toward.
+      </p>
+    </section>
+
+    <section class="case-gallery-wide">
+      <img src="images/carnival-1.jpg" alt="Family Carnival event overview" class="g-hero" />
+      <img src="images/carnival-2.jpg" alt="Vendor interview at the Family Carnival" />
+      <img src="images/carnival-3.jpg" alt="Families attending the carnival" />
+      <img src="images/carnival-4.jpg" alt="Promotional content from the campaign" />
+    </section>
+
+    <section class="case-section">
+      <h2>My Contributions</h2>
+      <ul>
+        <li>Designed promotional graphics and social content for the campaign in Canva, supporting the push to grow attendance.</li>
+        <li>Wrote social captions and promotional copy across Facebook and Instagram to build awareness ahead of the event.</li>
+        <li>Captured event photography and conducted on-site vendor interviews, creating content that extended engagement online before and during the carnival.</li>
+        <li>Reached out to local vendors and food trucks to help secure participation and expand the day's offerings.</li>
+        <li>Collaborated with the outreach and communications team to keep campaign messaging aligned with Centerstone's brand standards.</li>
+        <li>Contributed to a campaign that helped grow attendance from roughly 300 to 633 people, even while competing against a major citywide carnival the same weekend.</li>
+      </ul>
+    </section>
+
+    <section class="case-section">
+      <h2>Skills Highlighted</h2>
+      <p>
+        Social media marketing, content creation, graphic design (Canva), event photography, copywriting,
+        vendor and partnership outreach, and cross-functional collaboration.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
