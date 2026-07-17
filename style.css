@@ -317,6 +317,16 @@ body {
   padding-left: 22px;
 }
 
+.case-section a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--hairline);
+}
+
+.case-section a:hover {
+  text-decoration-color: var(--ink);
+}
+
 /* CASE HIGHLIGHT STAT */
 
 .case-highlight {
@@ -338,6 +348,42 @@ body {
   max-width: 520px;
   font-size: 16px;
   line-height: 1.4;
+  color: var(--muted);
+}
+
+/* SPLIT HIGHLIGHT (main stat + smaller secondary stat) */
+
+.case-highlight-split {
+  display: flex;
+  gap: 48px;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  padding: 40px 0;
+  margin-bottom: 75px;
+}
+
+.highlight-main {
+  flex: 1;
+}
+
+.highlight-secondary {
+  flex: 1;
+  padding-left: 48px;
+  border-left: 1px solid var(--hairline);
+}
+
+.highlight-secondary-number {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.highlight-secondary-label {
+  max-width: 420px;
+  font-size: 14px;
+  line-height: 1.45;
   color: var(--muted);
 }
 
@@ -486,6 +532,18 @@ body {
 
   .highlight-number {
     font-size: 56px;
+  }
+
+  .case-highlight-split {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .highlight-secondary {
+    padding-left: 0;
+    border-left: none;
+    padding-top: 20px;
+    border-top: 1px solid var(--hairline);
   }
 
   .case-gallery-wide {
