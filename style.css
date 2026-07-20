@@ -355,6 +355,23 @@ body {
   color: var(--muted);
 }
 
+/* LANDING PAGE PREVIEW */
+
+.landing-preview {
+  width: 100%;
+  height: 480px;
+  margin-top: 16px;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.landing-preview iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 /* CASE HIGHLIGHT STAT */
 
 .case-highlight {
@@ -599,5 +616,9 @@ body {
   .case-video-embed {
     width: 100%;
     max-width: 320px;
+  }
+
+  .landing-preview {
+    height: 360px;
   }
 }
