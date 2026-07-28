@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Pages | Emmanuel Appiadjei</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="case-page">
+
+    <header class="nav">
+      <a href="index.html" class="brand">Emmanuel Appiadjei</a>
+
+      <nav>
+        <a href="index.html">Portfolio</a>
+        <a href="landing-pages.html" class="active">Landing Pages</a>
+        <a href="index.html#about">About</a>
+        <a href="mailto:youremail@example.com">Contact</a>
+      </nav>
+    </header>
+
+    <section class="case-hero">
+      <a href="index.html" class="back-link">← Back to Portfolio</a>
+
+      <h1>Landing Pages</h1>
+
+      <p class="case-subtitle">
+        A collection of landing pages I've designed and built for real events and campaigns.
+      </p>
+    </section>
+
+    <section class="selected-work">
+      <div class="project-grid">
+
+        <a href="landing-mahjong-social.html" class="project-card">
+          <img src="images/project-mahjong.jpg" alt="Mahjong Social — Revecore x SmarterDX" class="project-image" />
+          <h3>Mahjong Social — Revecore x SmarterDX</h3>
+          <p>
+            Event landing page with RSVP form, built in HubSpot for a Revecore and SmarterDX networking event.
+          </p>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
